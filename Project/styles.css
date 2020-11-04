@@ -1,0 +1,307 @@
+/* startpage and over all layout */
+html{
+    background: url(backWood.jpg) no-repeat;
+}
+body{
+    background: url(backWood.jpg) no-repeat;
+    background-size: cover;
+}
+.contentContainer{
+    display: flex;
+    height: 100%;
+}
+.logoBox, .logoText{
+    color: black;
+    font-family: 'Segoe script', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: content-box;
+    overflow: auto;
+}
+.logo{
+    display: block;
+    float: right;
+    width: 120px;
+    height: 80px;
+}
+p{
+    font-family: 'Segoe script', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+@media only screen and (min-width:1600px){
+    .navbar.navbar-expand-lg.navbar-light.bg-light{
+        background: rgba(0, 0, 0, 0) !important;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 8%;
+        height: fit-content;
+        z-index: 1;
+    }
+}
+@media only screen and (max-width:1600px){
+    .navbar.navbar-expand-lg.navbar-light.bg-light{
+        background: rgba(0, 0, 0, 0) !important;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 120px;
+        height: fit-content;
+        z-index: 1;
+    }
+}
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+li{
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.1));
+    margin-top: 2%;
+}
+li:hover{
+    background: linear-gradient(to right, rgb(150, 150, 200, 0.7), rgba(150, 150, 200, 0.1));
+    margin-top: 2%;
+}
+.home{
+    width: 80px;
+    height: 60px;
+}
+.presContainer{
+    margin: 0 auto;
+    color: black;
+    width: 40%;
+}
+.textContainer{
+    background: linear-gradient(to right, rgba(255, 255,255, 1), rgba(255, 255, 255, 0.1));
+    display: flex;
+    flex-wrap: wrap;
+}
+h2{
+    font-family: 'Segoe script', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+h3{
+    font-family: 'Segoe script', Tahoma, Geneva, Verdana, sans-serif !important;
+    font: bold;
+}
+h4{
+    text-align: right;
+    margin-right: 5%;
+}
+.mainText{
+    font-family: 'Segoe script', Tahoma, Geneva, Verdana, sans-serif;
+    width: 70%;
+}
+@media only screen and (min-width:1800px){
+    .newsFeed{
+        float: right;
+        margin-top: 300px;
+        width: 400px;
+        height: fit-content;
+    }
+    .news{
+        border: 1px solid black;
+    }
+}
+@media only screen and (max-width:1800px){
+    .newsFeed{
+        float: right;
+        margin-top: 300px;
+        width: 300px;
+        height: fit-content;
+    }
+    .news{
+        border: 1px solid black;
+    }
+}
+.textImg{
+    display: flex;
+    height: fit-content;
+}
+.images{
+    display: flex;
+    height: fit-content;
+}
+.cookie{
+    margin-left: auto;
+    margin-right: 0;
+}
+@media only screen and (max-width: 1100px){
+    .cookies{
+        width: 100%;
+        height: 100%;
+    }
+    .store{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (min-width: 1100px){
+    .cookies{
+        position: inherit;
+        right: 0;
+        width: 400px;
+        height: 250px;
+    }
+    .store{
+        float: right !important;
+        right: 1%;
+        width: 420px;
+        height: 832px;
+    }
+}
+@media only screen and (min-width:1600px){
+    .cookies{
+        width: 500px;
+        height: 300px;
+    }
+}
+@media only screen and (min-width:2000px){
+    .cookies{
+        width: 600px;
+        height: 400px;
+    }
+}
+footer{
+    color: black;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.footerImages{
+    text-align: center;
+}
+@media only screen and (max-width:1000px){
+    .facebook{
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 4%;
+        height: 4%;
+    }
+    .instagram{
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 4%;
+        height: 4%;
+    }
+}
+@media only screen and (min-width:1000px){
+    .facebook{
+        text-align: center;
+        width: 40px;
+        height: 40px;
+    }
+    .instagram{
+        text-align: center;
+        width: 40px;
+        height: 40px;
+    }
+}
+/* Contacts layout */
+.contactContainer{
+    display: flex;
+    height: 100%;
+}
+.contactPresContainer{
+    margin: 0 auto;
+    color: black;
+    width: 40%;
+}
+.contactMainText{
+    background: linear-gradient(to right, rgba(255, 255,255, 1), rgba(255, 255, 255, 0.1));
+    display: flow-root;
+    font-family: 'Segoe script', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    width: 80%;
+}
+#firstname{
+    width: 50%;
+    overflow: hidden;
+}
+#surname{
+    width: 50%;
+    overflow: hidden;
+}
+#email{
+    width: 50%;
+    overflow: hidden;
+}
+#text{
+    width: 50%;
+    height: 120px;
+    
+    overflow: hidden;
+}
+#space{
+    height: 120px;
+}
+/* Gallery layout */
+.galleryContainer{
+    margin: 0 auto;
+    color: black;
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+}
+.pictureOne{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.pictureTwo{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.pictureThree{
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.pictureFour{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+.pictureFive{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+.pictureSix{
+    grid-column-start: 4;
+    grid-column-end: 8;
+    grid-row-start: 4;
+    grid-row-end: 9;
+}
+.pictureSeven{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 10;
+}
+.gallery_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* About layout */
+.aboutContainer{
+    background: linear-gradient(to right, rgba(255, 255,255, 1), rgba(255, 255, 255, 0.1));
+    margin: 0 auto;
+    width: 40%;
+    height: fit-content;
+    font-family: 'Segoe script', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}

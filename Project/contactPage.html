@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <title>Name Cafe</title>
+</head>
+
+<body>
+    <div class="logoBox">
+        <div class="logoText">
+            <img class="logo" src="bakery.png" alt="Name Cafe">
+            <h1>
+                THIS IS NAME CAFE
+            </h1>
+            <div>
+                <p>CONTACTS</p>
+            </div>
+        </div>
+    </div>
+    <div class="contactContainer">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul>
+                        <li>
+                            <a href="startPage.html">
+                                <img src="Home.png" alt="home" class="home">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contactPage.html">
+                                <img src="Contacts.png" alt="contacts" class="home">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="galleryPage.html">
+                                <img src="Gallery.png" alt="gallery" class="home">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="extraPage.html">
+                                <img src="About.png" alt="about" class="home">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <main class="contactPresContainer">
+            <div class="contactMainText">
+                <section>
+                    <header>
+                        <h2>Please enter you name here: </h2>
+                    </header>
+                </section>
+                <div class="contactFormText">
+                    <form action="mailto:gstudios@hotmail.com" method="POST" enctype="multipart/form-data"
+                        name="EmailForm">
+                        <label for="firstname">Firstname</label><br>
+                        <input type="text" id="firstname" name="Firstname"><br>
+                        <label for="surname">Surname</label><br>
+                        <input type="text" id="surname" name="Surname"><br>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" name="email"><br>
+                        <label for="text">Text</label><br>
+                        <textarea name="text" id="text" cols="30" rows="10"></textarea><br>
+                        <input type="submit" value="submit">
+                    </form>
+                </div>
+            </div>
+            <div id="space"></div>
+            <div class="contactMainText">
+                <h2>CONTACTS</h2>
+                <div>Phone: 012 - 34 56 789</div>
+                <div>Email: info@namecafe.com</div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div class="footerImages">
+            <a href="https://www.facebook.com">
+                <img class="facebook" src="facebookIcon.png" alt="facebook">
+            </a>
+            <a href="https://www.instagram.com">
+                <img class="instagram" src="600px-Instagram_icon.png" alt="instagram">
+            </a>
+        </div>
+        <p>copyright Name Cafe</p>
+    </footer>
+</body>
+
+</html>
